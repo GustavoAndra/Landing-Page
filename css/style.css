@@ -130,11 +130,9 @@ nav{
     height: 100px;
 }
 
-
 #titulo
 {
-
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 40px;
     font-size: 40px;
     color: #fff;
@@ -152,7 +150,6 @@ nav{
   margin-top: 80px;
 }
 .P h1{
-    
   padding-top: 20px;
   padding-left: 40px;
   font-size: 30px;
