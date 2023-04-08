@@ -1,6 +1,4 @@
-/* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
 *{
   margin: 0;
   padding: 0;
@@ -133,7 +131,7 @@
 {
     padding-top: 200px;
     padding-left: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
     color: #fff;
     font-size: 36px;
     margin-top: 20px;
@@ -208,7 +206,7 @@
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     width: 300px;
-    height: 80px;
+    height: 60px;
     bottom: 10%;
     left: 50%;
     transform: translate(-50%, 50%);
@@ -576,6 +574,7 @@ footer
     flex-direction: column;
     gap: 0.75rem;
     list-style: none;
+    margin-bottom: 25px;
 }
 
 .footer-list .footer-link {
@@ -633,4 +632,9 @@ footer
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
+}
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 16px;
+  }
 }
