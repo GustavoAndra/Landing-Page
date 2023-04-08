@@ -8,6 +8,9 @@
  
   background-color: #000;
 }
+nav{
+  font-family: 'Montserrat', sans-serif;
+}
 .slide-container{
   max-width: 1120px;
   width: 100%;
