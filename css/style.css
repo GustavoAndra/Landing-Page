@@ -129,9 +129,9 @@
 
 #titulo
 {
+  margin-left: 30px;
     padding-top: 200px;
-    padding-left: 30px;
-    margin-left: 150px;
+    font-size: 40px;
     color: #fff;
     font-size: 36px;
     margin-top: 20px;
@@ -183,18 +183,12 @@
     margin-top: 20px;
   }
 
-.principal img
-{
-    max-width: 100%;
-    height: auto;
-}
-
 .principal
 {
         position: relative;
         display: flex;
         flex-direction: row;
-        align-items: center;
+       
         justify-content: center;
         margin-top: 50px;
 }
