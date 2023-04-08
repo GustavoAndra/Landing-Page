@@ -149,7 +149,7 @@
 }
 #P h1{
     
-        font-size: 40px;
+        font-size: 30px;
         color: #FFFFFF;
         margin-top: 20px;
 }
@@ -221,7 +221,7 @@
 
 .Texto p 
 {
-  margin-top: 25px;
+    margin-top: 25px;
     color: white;
     font-family: 'Poppins';
     font-style: normal;
@@ -515,6 +515,8 @@ border-bottom: 5px solid #FF0000;
 }
 footer 
 {
+  border-top: 3px solid #fff; 
+  margin-top: 5px;
     width: 100%;
     color: var(--color-neutral-40);
 }
@@ -522,6 +524,9 @@ footer
 .footer-link 
 {
     text-decoration: none;
+   
+    margin-bottom: 50px;
+   
 }
 
 #footer_content 
@@ -532,8 +537,8 @@ footer
     padding: 3rem 3.5rem;
 }
 
-#footer_contacts h1 {
-    margin-bottom: 0.75rem;
+#footer_contacts p {
+  margin-left: 80px;   
 }
 
 #footer_social_media {
@@ -636,14 +641,4 @@ footer
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
-}
-@media screen and (max-width: 360px) {
-  h1 {
-    font-size: 16px;
-  }
-}
-@media (max-width: 576px) {
-  .text-sm {
-    font-size: 15px; /* ajuste o tamanho do texto de acordo com sua preferência */
-  }
 }
